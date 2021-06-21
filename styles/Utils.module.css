@@ -1,0 +1,6 @@
+.bodyCSS {
+    min-height: 100vh;
+    background-color: #3D3D3D;
+    background-size: cover;
+    display: flex;
+}
