@@ -5,6 +5,7 @@ import TextFieldComponent from '../components/TextFieldComponent';
 import ButtonComponent from '../components/ButtonComponent';
 import ContainerComponent from '../components/ContainerComponent';
 import HyperlinkComponent from '../components/HyperlinkComponent';
+import FormComponent from '../components/FormComponent';
 
 import { siteTitle } from '../lib/utils';
 
@@ -23,12 +24,14 @@ export default function Login() {
             width={300}
             height={300}
           />
-          <TextFieldComponent
-            label="Usuário ou email"
-          />
-          <TextFieldComponent
-            label="Senha"
-          />
+          <FormComponent>
+            <TextFieldComponent
+              label="Usuário ou email"
+            />
+            <TextFieldComponent
+              label="Senha"
+            />
+          </FormComponent>
           <ButtonComponent
             label="Entrar"
           />

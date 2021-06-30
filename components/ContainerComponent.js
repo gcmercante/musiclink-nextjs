@@ -2,10 +2,6 @@ import { Box, withStyles } from '@material-ui/core';
 
 const ContainerCustom = withStyles({
     root: {
-        '& > *': {
-            marginBottom: '20px',
-            marginRight: '20px',
-        },
         margin: 'auto',
     },
 })(Box);
